@@ -25,6 +25,12 @@ $perso3->parler();
 $perso3 = destruct;
 $perso3->parler();
 -------------------------
+Perso4 constante
 
+$perso4 =new Personages(Personages::FORCE_PETITE,0.0,7789,"baguette kun");
+
+$perso4 ->getForce();
 */
+
+
 ?>

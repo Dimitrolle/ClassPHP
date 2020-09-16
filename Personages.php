@@ -11,8 +11,10 @@ class Personages
     private $_nom;
 
 
-    //
-
+    //constante
+    const FORCE_PETITE = 1;
+    const FORCE_MOYENNE = 25;
+    const FORCE_GRANDE = 50;
     /**
      * Personages constructor.
      * @param $_force
@@ -33,7 +35,7 @@ class Personages
      */
     public function getForce()
     {
-        return $this->_force;
+        echo $this->_force;
     }
     public function getExperience()
     {
