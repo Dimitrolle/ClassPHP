@@ -6,7 +6,7 @@ class Personages
     private $_force; // La force du personnage
     private $_localisation; // Sa localisation
     private $_experience = 50; //Son expérience
-    private $_degats; // Ses dégâts
+    private $_degats = 0; // Ses dégâts
     private $_age;
     private $_nom;
 
@@ -16,34 +16,47 @@ class Personages
      * @param $_force
      * @param $_localisation
      * @param $_nom
-     * @param $_degats
      * @param $_age
      */
-    public function __construct($_force, $_localisation, $_degats, $_age,$_nom)
+    public function __construct($_force, $_localisation,  $_age,$_nom)
     {
         $this->_force = $_force;
         $this->_localisation = $_localisation;
-        $this->_degats = $_degats;
         $this->_age = $_age;
-        $this->_age = $_nom;
+        $this->_nom = $_nom;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getForce()
+    {
+        return $this->_force;
+    }
+    public function getExperience()
+    {
+        echo $this->_experience.'pour le personnages'.$this->_nom;
+    }
 
-    public function gagnerExperience(Personages $UnPerso)
+    public function getDegats()
+    {
+        echo 'le personnage '.$this->_nom .' à subit '.$this->_degats.' de dégats';
+    }
+
+    public function gagnerExperience()
     {
         $this->_experience+= ceil ($this->_age*0.45);
     }
 
     public function frapper(Personages $UnPerso)
     {
-    }
-    public function afficherExperience(Personages $UnPerso)
-    {
-        echo $this->_experience;
+        $UnPerso->_degats = $this->_force+ $UnPerso->_degats;
     }
 
     public function parler()
     {
-        echo 'Je suis '.$this->_nom;
+        echo 'Je suis '.$this->_nom.' ';
     }
+
+
 }
