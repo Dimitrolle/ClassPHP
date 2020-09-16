@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ca5ccc-e562-45c3-bb7d-d9075c7d7d1f" name="Default Changelist" comment="commit Perso">
+    <list default="true" id="22ca5ccc-e562-45c3-bb7d-d9075c7d7d1f" name="Default Changelist" comment="commit_fini1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Personages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Personages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -62,7 +62,7 @@
       <updated>1599643467415</updated>
       <workItem from="1599643468471" duration="2104000" />
       <workItem from="1600236548500" duration="2245000" />
-      <workItem from="1600238832786" duration="3197000" />
+      <workItem from="1600238832786" duration="5755000" />
     </task>
     <task id="LOCAL-00001" summary="first_commit">
       <created>1599643984932</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600238632265</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit_fini1">
+      <created>1600242408830</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600242408830</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,8 @@
     <MESSAGE value="2_commit" />
     <MESSAGE value="first_commit" />
     <MESSAGE value="commit Perso" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Perso" />
+    <MESSAGE value="commit_fini1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit_fini1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2587" y="163" key="#PHP" timestamp="1600238926154">
@@ -155,22 +163,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2697" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599643858582" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600240563015">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600244713851">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600240563015" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600240563015">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600244713851" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600244713851">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600240563015" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600240563015">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600244713851" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600244713851">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600240563015" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600240563015">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600244713851" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600244713851">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600240563015" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600244713851" />
     <state x="2671" y="243" key="NewPhpClassDialog" timestamp="1600236668003">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -183,10 +191,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599643812025" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599644349373">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600242454160">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599644349373" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600242454160" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

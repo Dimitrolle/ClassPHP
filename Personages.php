@@ -11,6 +11,8 @@ class Personages
     private $_nom;
 
 
+    //
+
     /**
      * Personages constructor.
      * @param $_force
@@ -55,7 +57,7 @@ class Personages
 
     public function parler()
     {
-        echo 'Je suis '.$this->_nom.' ';
+        echo 'Je suis '.$this->_nom.' et j\'ai '.$this->_age.' ans';
     }
 
 
