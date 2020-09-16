@@ -2,6 +2,7 @@
 include 'Personages.php';
 $perso1 =new Personages(20,0.0,20,"John Cena");
 $perso2 =new Personages(1,1.0,10,"Jean-Raoul SCOUT");
+$perso5 =new Personages(1,1.0,10,"Jean-Raoul SCOUT");
 
 
 /*
@@ -26,11 +27,32 @@ $perso3 = destruct;
 $perso3->parler();
 -------------------------
 Perso4 constante
-
 $perso4 =new Personages(Personages::FORCE_PETITE,0.0,7789,"baguette kun");
-
 $perso4 ->getForce();
+-----------------------
+Perso comparaison
+-----------------
+
+//test tout l'objet ainsi que l'emplacement mémoire
+if ($perso2 === $perso5)
+{
+    echo 'oui ';
+}
+else
+{
+    echo 'non ';
+}
+//test attribut par attribut
+if ($perso2 == $perso5)
+{
+    echo 'oui';
+}
+else
+{
+    echo 'non';
+}
 */
+//counte nombre d'instanciation
 
 
 ?>
