@@ -3,6 +3,7 @@ include 'Personages.php';
 $perso1 =new Personages(20,0.0,20,"John Cena");
 $perso2 =new Personages(1,1.0,10,"Jean-Raoul SCOUT");
 $perso5 =new Personages(1,1.0,10,"Jean-Raoul SCOUT");
+$data1 =array('force'=> 10,'localisation'=>5.6,'age'=>15,'nom'=>"Hasagi");
 
 
 /*
@@ -51,8 +52,8 @@ else
 {
     echo 'non';
 }
+-------------------------
 */
-//counte nombre d'instanciation
-
+$Perso6 = new personnages()
 
 ?>

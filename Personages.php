@@ -15,6 +15,7 @@ class Personages
     const FORCE_PETITE = 1;
     const FORCE_MOYENNE = 25;
     const FORCE_GRANDE = 50;
+
     /**
      * Personages constructor.
      * @param $_force
@@ -22,7 +23,7 @@ class Personages
      * @param $_nom
      * @param $_age
      */
-    public function __construct($_force, $_localisation,  $_age,$_nom)
+    public function __construct($_force, $_localisation, $_age, $_nom)
     {
         $this->_force = $_force;
         $this->_localisation = $_localisation;
@@ -37,30 +38,48 @@ class Personages
     {
         echo $this->_force;
     }
+
     public function getExperience()
     {
-        echo $this->_experience.'pour le personnages'.$this->_nom;
+        echo $this->_experience . 'pour le personnages' . $this->_nom;
     }
 
     public function getDegats()
     {
-        echo 'le personnage '.$this->_nom .' à subit '.$this->_degats.' de dégats';
+        echo 'le personnage ' . $this->_nom . ' à subit ' . $this->_degats . ' de dégats';
     }
 
     public function gagnerExperience()
     {
-        $this->_experience+= ceil ($this->_age*0.45);
+        $this->_experience += ceil($this->_age * 0.45);
     }
 
     public function frapper(Personages $UnPerso)
     {
-        $UnPerso->_degats = $this->_force+ $UnPerso->_degats;
+        $UnPerso->_degats = $this->_force + $UnPerso->_degats;
     }
 
     public function parler()
     {
-        echo 'Je suis '.$this->_nom.' et j\'ai '.$this->_age.' ans';
+        echo 'Je suis ' . $this->_nom . ' et j\'ai ' . $this->_age . ' ans';
     }
 
 
+
+    public function _construct(array $data)
+    {
+        $this->hydrate($data);
+    }
+
+    public function hydrate(array$donnees)
+    {
+        foreach($donnees as $key => $value)
+        {
+            $method = 'set'.ucfirst($key);
+             if(method-exists($this.$method))
+             {
+                 $this->$method($value);
+             }
+        }
+    }
 }
