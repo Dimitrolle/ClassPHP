@@ -74,7 +74,7 @@ class Personages
         foreach($donnees as $key => $value)
         {
             $method = 'set'.ucfirst($key);
-            if(method-exists($this.$method))
+            if(method_exists($this,$method))
             {
                 $this->$method($value);
             }

@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ca5ccc-e562-45c3-bb7d-d9075c7d7d1f" name="Default Changelist" comment="commit_hydrate2">
+    <list default="true" id="22ca5ccc-e562-45c3-bb7d-d9075c7d7d1f" name="Default Changelist" comment="commit_hydrate_fini">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Personages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Personages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -68,7 +68,7 @@
       <workItem from="1599643468471" duration="2104000" />
       <workItem from="1600236548500" duration="2245000" />
       <workItem from="1600238832786" duration="9659000" />
-      <workItem from="1600841939748" duration="3313000" />
+      <workItem from="1600841939748" duration="4157000" />
     </task>
     <task id="LOCAL-00001" summary="first_commit">
       <created>1599643984932</created>
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600844376890</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit_hydrate_fini">
+      <created>1600845584881</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600845584881</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +189,8 @@
     <MESSAGE value="commit_compteur" />
     <MESSAGE value="commit_hydrate1" />
     <MESSAGE value="commit_hydrate2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit_hydrate2" />
+    <MESSAGE value="commit_hydrate_fini" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit_hydrate_fini" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2587" y="163" key="#PHP" timestamp="1600238926154">
@@ -237,10 +245,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600250099759" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600842012341">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600845587891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600842012341" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600845587891" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600250332611" />
   </component>
 </project>
