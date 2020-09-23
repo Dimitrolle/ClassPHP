@@ -16,19 +16,23 @@ class Personages
     const FORCE_MOYENNE = 25;
     const FORCE_GRANDE = 50;
 
-    /**
+    /*
      * Personages constructor.
      * @param $_force
      * @param $_localisation
      * @param $_nom
      * @param $_age
      */
-    public function __construct($_force, $_localisation, $_age, $_nom)
+    public function __construct(array $data)
     {
+        /*
         $this->_force = $_force;
         $this->_localisation = $_localisation;
         $this->_age = $_age;
-        $this->_nom = $_nom;
+        $this->_nom = $_nom;*/
+
+        $this->hydrate($data);
+
     }
 
     /**
@@ -65,21 +69,17 @@ class Personages
     }
 
 
-
-    public function _construct(array $data)
-    {
-        $this->hydrate($data);
-    }
-
-    public function hydrate(array$donnees)
+    private function hydrate(array$donnees)
     {
         foreach($donnees as $key => $value)
         {
             $method = 'set'.ucfirst($key);
-             if(method-exists($this.$method))
-             {
-                 $this->$method($value);
-             }
+            if(method-exists($this.$method))
+            {
+                $this->$method($value);
+            }
         }
     }
+
+
 }
