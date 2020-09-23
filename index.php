@@ -54,6 +54,8 @@ else
 }
 -------------------------
 */
-$Perso6 = new personnages()
+$Perso6 = new Personages($data1);
+
+$Perso6->parler();
 
 ?>
