@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22ca5ccc-e562-45c3-bb7d-d9075c7d7d1f" name="Default Changelist" comment="commit_compteur">
+    <list default="true" id="22ca5ccc-e562-45c3-bb7d-d9075c7d7d1f" name="Default Changelist" comment="commit_hydrate1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Personages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Personages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1599643468471" duration="2104000" />
       <workItem from="1600236548500" duration="2245000" />
       <workItem from="1600238832786" duration="9659000" />
-      <workItem from="1600841939748" duration="518000" />
+      <workItem from="1600841939748" duration="2329000" />
     </task>
     <task id="LOCAL-00001" summary="first_commit">
       <created>1599643984932</created>
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600250330935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit_hydrate1">
+      <created>1600842494202</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600842494202</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +173,8 @@
     <MESSAGE value="commit_fini2" />
     <MESSAGE value="commit_constant" />
     <MESSAGE value="commit_compteur" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit_compteur" />
+    <MESSAGE value="commit_hydrate1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit_hydrate1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2587" y="163" key="#PHP" timestamp="1600238926154">

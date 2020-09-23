@@ -64,10 +64,13 @@ class Personages
         echo 'Je suis ' . $this->_nom . ' et j\'ai ' . $this->_age . ' ans';
     }
 
+
+
     public function _construct(array $data)
     {
         $this->hydrate($data);
     }
+
     public function hydrate(array$donnees)
     {
         foreach($donnees as $key => $value)
