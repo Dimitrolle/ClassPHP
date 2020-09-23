@@ -1,5 +1,5 @@
 <?php
-include 'Personages.php';
+require ('metier/Personages.php');
 /*
 $perso1 =new Personages(20,0.0,20,"John Cena");
 $perso2 =new Personages(1,1.0,10,"Jean-Raoul SCOUT");

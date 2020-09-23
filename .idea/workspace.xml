@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="22ca5ccc-e562-45c3-bb7d-d9075c7d7d1f" name="Default Changelist" comment="commit_hydrate_fini">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personages.php" beforeDir="false" afterPath="$PROJECT_DIR$/Personages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personages.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compteur.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SIO2\PhpstormProjects\untitled2\métier" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" port="8080">
@@ -68,7 +75,7 @@
       <workItem from="1599643468471" duration="2104000" />
       <workItem from="1600236548500" duration="2245000" />
       <workItem from="1600238832786" duration="9659000" />
-      <workItem from="1600841939748" duration="4157000" />
+      <workItem from="1600841939748" duration="4857000" />
     </task>
     <task id="LOCAL-00001" summary="first_commit">
       <created>1599643984932</created>
@@ -161,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600845584881</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit_hydrate_fini">
+      <created>1600846274071</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600846274071</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,10 +219,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2334" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600239076976" />
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600240698918">
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1600846832809">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600240698918" />
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600846832809" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1600846442027">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600846442027" />
     <state x="2758" y="418" key="Github.ShareDialog" timestamp="1599643835597">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -245,10 +263,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600250099759" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600845587891">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600846276309">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600845587891" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600250332611" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1600846276309" />
   </component>
 </project>
